@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+    font-optical-sizing: auto;
+    font-style:oblique;
+}
+
+h1, h2, h3, h4, p {
+    color: #3E2723;
+    }
+
+#hero {
+    background-image: url("images/jhb-skyline.jpg");
+    background-size: cover;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#title, #subtitle {
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#title {
+    margin: 122px 0 16px 0;
+    font-size: 32px;
+    background: #eed7c5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+#subtitle {
+    font-size: 19px;
+    margin-bottom: 127px;
+    background: #f27059;;
+    width: 500px;
+}
+
+#activity-section {
+    padding: 1px 0 80px 0;
+    background: #eed7c5;
+    height: 70vh;
+}
+
+#activity-headline {
+    width: fit-content;
+    text-align: center;
+    font-size: 24px;
+    margin: 40px auto 55px auto; 
+    color: white;
+    background: #f25c54;
+    padding: 10px 20px; 
+    border-radius: 8px;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;            
+    padding: 0 20px;              
+}
+    
+#activities div {
+    width: 30%;                     
+    text-align: center;              
+    padding: 10px; 
+}
+
+.activity-img:hover {
+    border: #f25c54 solid 4px;
+}
+
+.activity-img {
+    width: 120px; /* Set a fixed width */
+    height: 120px; /* Set a fixed height to keep proportions consistent */
+    object-fit: cover; /* Ensures the images fill the set width and height without distorting */
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 20px;
+}      
+
+.activity-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.activity-text {
+    font-size: 16px;
+    width: auto;
+    height: 20px;
+}
+
+#card-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#card-img {
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.card {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 420px; 
+    height: 294px;
+    background-color: #f25c54;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px #264653;
+    }
+
+#card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #eee2df;
+}
+
+#card-text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 26px;
+    margin-left: 10px;
+    color: black;
+}
+
+#card-name {
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #eee2df;
+    }
