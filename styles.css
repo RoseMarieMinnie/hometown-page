@@ -77,10 +77,10 @@ h1, h2, h3, h4, p {
 }
 
 .activity-img {
-    width: 120px; /* Set a fixed width */
-    height: 120px; /* Set a fixed height to keep proportions consistent */
-    object-fit: cover; /* Ensures the images fill the set width and height without distorting */
-    border-radius: 50%; /* Circular images */
+    width: 120px; 
+    height: 120px; 
+    object-fit: cover; 
+    border-radius: 50%; 
     margin-bottom: 20px;
 }      
 
